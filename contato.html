@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <h1><strong>Contato</strong></h1>
+</header>
+<nav>
+    <a href="index.html">Principal</a>
+    <a href="musicas.html">Músicas</a>
+    <a href="aulas.html">Aulas</a>
+    <a href="contato.html">Contato</a>
+</nav>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Insira seus dados</legend>
+        <strong>Digite seu nome:</strong>
+        <input type="text" name= "txtnome" required><br>
+
+        <strong>Data de nascimento:</strong>
+        <input type="date" name= "txtdata" required><br>
+
+        <strong> E-mail: </strong>
+        <input type="email" name= "txtemail" required><br>
+
+        <strong>Gênero:</strong><br>
+        <input type="radio" name="gênero" value="g1"> Feminino<br>
+        <input type="radio" name="gênero" value="g2"> Masculino<br>
+
+        <strong>Raça Declarada:</strong>
+        <select name="raca">
+            <option value=""></option>
+            <option value="Branca">Branca</option>
+            <option value="Negra">Negra</option>
+            <option value="Parda">Parda</option>
+            <option value="Amarela">Amarela</option>
+            <option value="Indígena">Indígena</option>
+            <option value="Desconhecida">Desconhecida</option>
+        </select>
+      <br>
+
+        <strong>Do que precisa ajuda?:</strong><br>
+        <input type="checkbox" name="disc" value="d1"> Python<br>
+        <input type="checkbox" name="disc" value="d2"> Java<br>
+        <input type="checkbox" name="disc" value="d3"> R<br>
+        <input type="checkbox" name="disc" value="d3"> C#<br>
+        <input type="checkbox" name="disc" value="d3"> Outro assunto<br>
+
+        <strong>Alguma observação?</strong><br>
+        <textarea name="conhecimentos" rows="5" cols="50"></textarea><br>
+
+        <button>Enviar</button> 
+    </fieldset>
+
+
+
+
+    
+        
+    </form>
+</body>
+</html>
